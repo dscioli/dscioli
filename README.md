@@ -39,7 +39,7 @@ git clone https://github.com/dscioli/pump-fleet-dashboard
 cd modbus-collector && docker compose -f docker-compose.demo.yml up
 ```
 
-<!-- HERO SCREENSHOT: fleet overview del dashboard, reemplazar al capturar -->
+![Demo fleet: active alarm on one station, command in flight on another — live](img/fleet-overview-alarm.png)
 
 ## How I work
 
