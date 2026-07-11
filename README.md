@@ -25,7 +25,7 @@ git clone https://github.com/dscioli/modbus-collector
 git clone https://github.com/dscioli/pump-station-simulator
 git clone https://github.com/dscioli/industrial-monitoring-stack
 git clone https://github.com/dscioli/pump-fleet-dashboard
-cd modbus-collector && docker compose -f docker-compose.demo.yml up
+cd modbus-collector && docker compose -f docker-compose.demo.yml up --build -d
 ```
 
 ![Demo fleet: active alarm on one station, command in flight on another — live](img/fleet-overview-alarm.png)
